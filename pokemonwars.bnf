@@ -1,0 +1,41 @@
+<program> ::= <pick_cmd> <pick_cmd> "start" <stmt_list> "end"
+
+<pick_cmd> ::= "pick" <pokemon_name>
+
+<stmt_list> ::= <stmt> | <stmt> <stmt_list>
+
+<stmt> ::= <if_stmt>
+          | <while_stmt>
+          | <special_cmd>
+          | <cure_cmd>
+          | <normal_cmd>
+
+<if_stmt> ::= "if" <condition> ":" <stmt_list> "else" ":" <stmt_list> "end"
+
+<while_stmt> ::= "while" <condition> ":" <stmt_list> "end"
+
+<special_cmd> ::= "special" 
+<normal_cmd> ::= "special"
+<cure_cmd> ::= "cure"
+
+<condition> ::= <operand> <comp_op> <operand>
+
+<operand> ::= "life" 
+             | "attack"
+             | "enemy_life"
+             | "enemy_attack"
+             | <number>
+
+<comp_op> ::= ">" | "<" | "=" | ">=" | "<="
+
+<pokemon_name> ::= "Pikachu" | "Charizard" | "Bulbasaur" | "Blastoise"
+                  | "Eevee" | "Gengar" | "Snorlax" | "Lucario" | "grenninja"
+                  | "sceptile" | "infeneape" | "lapras"" | "drapion" | "rhydom" |
+                  | "talonflame" | "alakazam" | "mewtwo" | "heracross" | "onix" | "dragonite" | 
+                  "garchomp" | "rayqauaza" | "zoroark" | "gardevoir" | "arceus" 
+
+<number> ::= <digit> | <digit> <number>
+
+<digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+
