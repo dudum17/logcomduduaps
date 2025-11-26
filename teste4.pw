@@ -1,0 +1,6 @@
+pick
+start
+    while enemy_life >= life:
+        special
+    end
+end

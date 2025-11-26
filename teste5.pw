@@ -1,0 +1,6 @@
+pick
+start
+    while life < 150:
+        cure
+    end
+end

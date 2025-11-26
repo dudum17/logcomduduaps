@@ -1,0 +1,6 @@
+pick
+start
+    if life > enemy_life:
+        special
+    end
+end

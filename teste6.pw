@@ -1,0 +1,14 @@
+pick
+start
+    while enemy_life > 0:
+        if life <= 40:
+            cure
+        else:
+            if enemy_life >= 30:
+                special
+            else:
+                normal
+            end
+        end
+    end
+end

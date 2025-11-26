@@ -1,0 +1,14 @@
+pick
+start
+    if life >= 100:
+        normal
+    end
+
+    if life == 100:
+        special
+    end
+
+    if enemy_life <= 80:
+        cure
+    end
+end

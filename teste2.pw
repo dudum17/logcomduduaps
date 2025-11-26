@@ -1,0 +1,8 @@
+pick
+start
+    if attack < enemy_attack:
+        special
+    else:
+        normal
+    end
+end

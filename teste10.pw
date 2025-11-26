@@ -1,0 +1,7 @@
+pick
+start
+    while enemy_life > 0:
+        cure
+        normal
+    end
+end

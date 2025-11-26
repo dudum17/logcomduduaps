@@ -1,0 +1,10 @@
+pick
+start
+    if life > 0:
+        if enemy_life > 50:
+            special
+        else:
+            normal
+        end
+    end
+end
